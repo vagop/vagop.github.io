@@ -1,0 +1,72 @@
+img{ 
+  width: 85%;
+  margin-bottom: 30px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  position: relative;
+}
+
+.name{
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: #222;
+  
+}
+
+#bemutatkozas{
+  font-size: 30px;
+  line-height: 0px;
+  margin-bottom:-30px;
+  color: #222;
+}
+
+main{
+  margin: 0px 450px;
+  line-height: 30px;
+}
+
+li{
+  list-style-type: square;
+}
+
+.idezet{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  background: grey;
+  font-size: 25px;
+  width: 800px;
+  padding-left: 30px; 
+  padding-right: 30px;
+  position: relative;
+  display: flex;
+  margin: 40px;
+}
+
+.idezojel{
+  position: absolute;
+  top: 0;
+  font-size: 90px;
+}
+
+p, h2, h3, li{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  
+}
+
+h5{
+  font-family: 'Merriweather', serif;
+  color: #222;
+  margin-top: -20px;
+  font-style: italic;
+  
+}
